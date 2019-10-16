@@ -1,17 +1,37 @@
-.containerMenu {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
+@media screen and (orientation:portrait) {
+    .containerMenu {
+        flex: 10 1;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line2Button {
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 1 1;
+        height: 250px;
+    }
 }
 
-.line2Button {
+@media screen and (orientation:landscape) {
+    .containerMenu {
+        flex: 10 1;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.containerComplet {
     display: flex;
-    flex-flow: row nowrap;
-    flex: 1 1;
-    height: 250px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .blankBlock {
@@ -25,7 +45,6 @@
     height: 20px;
     width: 20px;
 }
-
 .img {
     width: 100px;
     height: 100px;
