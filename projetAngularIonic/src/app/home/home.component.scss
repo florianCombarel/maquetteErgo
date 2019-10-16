@@ -1,0 +1,46 @@
+.containerMenu {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.line2Button {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1;
+    height: 250px;
+}
+
+.blankBlock {
+    flex: 1 1;
+    height: 20px;
+    width: 20px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    flex: 3 1 100px;
+}
+
+.titleCard {
+    width: 100px;
+    height: 20px;
+    flex: 1 1;
+}
+
+.containerCard {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: darkgrey;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+}

@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Smart Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class='containerMenu'>
+    <div class='blankBlock'></div>
+    <div class='line2Button'>
+      <div class='containerCard' (click)="go('home/breakfast')">
+        <ion-img class='img' src='../../assets/img/breakfast.jpg'></ion-img>
+        <ion-text class='titleCard' color='light'>Petit déjeuner</ion-text>
+      </div>
+      <div class='blankBlock'></div>
+      <div class='containerCard' (click)="go('home/bathroom')">
+        <ion-img class='img' src='../../assets/img/bathroom.jpg'></ion-img>
+        <ion-text class='titleCard' color='light'>Salle de bain</ion-text>
+      </div>
+    </div>
+    <div class='blankBlock'></div>
+    <div class='line2Button'>
+      <div class='containerCard' (click)="go('home/store')">
+        <ion-img class='img' src='../../assets/img/store.jpg'></ion-img>
+        <ion-text class='titleCard' color='light'>Volets</ion-text>
+      </div>
+      <div class='blankBlock'></div>
+      <div class='containerCard' (click)="go('home/television')">
+        <ion-img class='img' src='../../assets/img/television.jpg'></ion-img>
+        <ion-text class='titleCard' color='light'>Télévision</ion-text>
+      </div>
+    </div>
+    <div class='blankBlock'></div>
+    <div class='line2Button'>
+      <div class='containerCard' (click)="go('home/trafic')">
+        <ion-img class='img' src='../../assets/img/trafic.jpg'></ion-img>
+        <ion-text class='titleCard' color='light'>Trafic routier</ion-text>
+      </div>
+    </div>
+    <div class='blankBlock'></div>
+  </div>
+</ion-content>
