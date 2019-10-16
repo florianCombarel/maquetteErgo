@@ -17,3 +17,8 @@ ion-icon {
 ion-text {
     flex: 2 1;
 }
+
+ion-toolbar {
+    --background: black;
+    --color: white;
+}

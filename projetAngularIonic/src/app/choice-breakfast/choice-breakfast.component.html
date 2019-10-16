@@ -1,0 +1,34 @@
+<ion-content>
+  <ion-toolbar>
+    <ion-title>{{ title }}</ion-title>
+  </ion-toolbar>
+  <ion-item lines='full'>
+    <div class='containerCheckbox'>
+      <ion-checkbox></ion-checkbox>
+    </div>
+    <div class='containertext'>
+      <ion-text>Immédiat</ion-text>
+    </div>
+    <div class='containerInput'>
+    </div>
+  </ion-item>
+  <ion-item lines='full'>
+    <div class='containerCheckbox'>
+      <ion-checkbox></ion-checkbox>
+    </div>
+    <div class='containertext'>
+      <ion-text>Différé</ion-text>
+    </div>
+    <div class='blankContainer'></div>
+    <div class='containerInput'>
+      <ion-input type='time'></ion-input>
+    </div>
+  </ion-item>
+  <ion-item *ngIf='boolSugar == true'>
+    <ion-text class='sugar'>Sucre :</ion-text>
+    <ion-img class='small' src='../../assets/icon/sugar.png'></ion-img>
+    <ion-range class='range' min="0" max="3" step="3">
+    </ion-range>
+    <ion-img class='big' src='../../assets/icon/sugar.png'></ion-img>
+  </ion-item>
+</ion-content>
